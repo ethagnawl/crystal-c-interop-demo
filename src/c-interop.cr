@@ -6,9 +6,9 @@ lib LibHello
 end
 
 module C::Interop
-  def self.hello(message)
-    LibHello.hello message
+  def self.hello(name)
+    LibHello.hello name
   end
 end
 
-C::Interop.hello "from Crystal"
+C::Interop.hello "world"
