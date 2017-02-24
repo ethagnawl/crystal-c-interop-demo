@@ -9,3 +9,7 @@ I ran into [one issue](http://stackoverflow.com/questions/42427195/trouble-linki
 
 # Run
 `./c-interop` \# => Hello, world!
+
+# Interesting bits
+- ./src/c/lib/hello.c
+- ./src/c-interop.cr
