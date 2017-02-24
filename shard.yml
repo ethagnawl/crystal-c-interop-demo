@@ -1,0 +1,13 @@
+name: c-interop
+version: 0.1.0
+
+authors:
+  - Peter Doherty <pdoherty926@gmail.com>
+
+targets:
+  c-interop:
+    main: src/c-interop.cr
+
+crystal: 0.21.0
+
+license: MIT
