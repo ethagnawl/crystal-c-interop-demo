@@ -12,3 +12,9 @@ module C::Interop
 end
 
 C::Interop.hello "world"
+
+# C::Interop.hello 42
+# Will not type check and results in the following compile-time error:
+#
+#   in src/c-interop.cr:10: argument 'name' of 'LibHello#hello' must be
+#   Pointer(UInt8), not Int32
