@@ -13,3 +13,7 @@ I ran into [one issue](http://stackoverflow.com/questions/42427195/trouble-linki
 # Interesting bits
 - ./src/c/lib/hello.c
 - ./src/c-interop.cr
+
+# Resources
+- http://www.cs.dartmouth.edu/~campbell/cs50/buildlib.html
+- https://randu.org/tutorials/c/libraries.php
