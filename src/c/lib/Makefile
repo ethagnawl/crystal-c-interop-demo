@@ -1,11 +1,11 @@
 .PHONY: all
-all: 
+all:
 	$(MAKE) clean
 	$(MAKE) libhello.a
 
 .PHONY: clean
 clean:
-		rm *.o *.a
+		rm -f *.o *.a
 
 hello.o: hello.c
 		gcc -Wall -c *.c
