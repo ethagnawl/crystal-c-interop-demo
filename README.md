@@ -5,7 +5,8 @@ After having been intrigued by Crystal's C interop facilities while reading thro
 I ran into [one issue](http://stackoverflow.com/questions/42427195/trouble-linking-against-static-c-library-in-crystal-program) along the way, but I believe that was a result of my ignorance about the C library ecosystem. I also went off the rails a bit because I was using a static library and not something available via pkg-config. Either way, once I figured out how to supply the path to my static library to `@[Link]`, everything Just Worked.
 
 # Build
-`crystal build src/c-interop.cr`
+- `pushd ./src/c && make && popd`
+- `crystal build src/c-interop.cr`
 
 # Run
 `./c-interop` \# => Hello, world!
